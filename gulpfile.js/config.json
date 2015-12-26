@@ -23,7 +23,7 @@
     },
 
     "css": {
-      "src": "stylesheets",
+      "src": "sass",
       "dest": "stylesheets",
       "autoprefixer": {
         "browsers": ["last 3 version"]
