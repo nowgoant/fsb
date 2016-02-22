@@ -2,7 +2,6 @@
 .sass-cache
 .publish
 .idea
-public
 Desktop.ini
 node_modules
 **/generated/_icons.sass
