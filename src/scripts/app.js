@@ -1,4 +1,5 @@
 import fastclick from 'fastclick';
+import $ from 'webpack_zepto';
 import './asyncModules';
 import exclaimify from './exclaimify';
 
@@ -22,3 +23,7 @@ fastclick.attach(document.body);
 //   get updated in js too!`)
 //
 // button.addEventListener('click', alertAsyncMessage)
+
+$('#button').on('click',function(){
+   alert('hihi'); 
+});
